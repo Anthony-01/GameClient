@@ -94,7 +94,12 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
+        this.test();
+    }
 
+    private test() {
+        let maJModel = new MaJ.GameModel();
+        maJModel.onGameStart();
     }
 
 }

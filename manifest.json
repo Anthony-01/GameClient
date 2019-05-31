@@ -8,10 +8,28 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/AssetAdapter.js",
+		"bin-debug/game/maJiang/action/processor/HandProcessor.js",
+		"bin-debug/model/GameModel.js",
+		"bin-debug/game/maJiang/action/processor/DrawProcessor.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/control/GameControl.js",
+		"bin-debug/control/Interface.js",
+		"bin-debug/event/GameEvents.js",
+		"bin-debug/game/maJiang/action/ActionControl.js",
+		"bin-debug/game/maJiang/action/Interface.js",
+		"bin-debug/game/maJiang/action/MaJActionExecutor.js",
+		"bin-debug/game/maJiang/action/processor/DiscardProcessor.js",
 		"bin-debug/LoadingUI.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/game/maJiang/models/GameModel.js",
+		"bin-debug/game/maJiang/models/Interface.js",
+		"bin-debug/manager/Interface.js",
+		"bin-debug/manager/TimerCtrl.js",
 		"bin-debug/Main.js",
-		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js"
+		"bin-debug/model/Interface.js",
+		"bin-debug/model/TimerModel.js",
+		"bin-debug/net/AjaxRequest.js",
+		"bin-debug/net/Interface.js",
+		"bin-debug/net/ServerCtrl.js"
 	]
 }
